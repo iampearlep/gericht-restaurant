@@ -1,11 +1,11 @@
 import React from 'react'
 
-const App = () => {
+const Chef = () => {
   return (
     <div>
-     
+      Chef
     </div>
   )
 }
 
-export default App
+export default Chef

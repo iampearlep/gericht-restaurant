@@ -1,11 +1,11 @@
 import React from 'react'
 
-const App = () => {
+const Awards = () => {
   return (
     <div>
-     
+      awards
     </div>
   )
 }
 
-export default App
+export default Awards

@@ -1,11 +1,11 @@
 import React from 'react'
 
-const App = () => {
+const Cta = () => {
   return (
     <div>
-     
+      Cta
     </div>
   )
 }
 
-export default App
+export default Cta

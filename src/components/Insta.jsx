@@ -1,11 +1,11 @@
 import React from 'react'
 
-const App = () => {
+const Insta = () => {
   return (
     <div>
-     
+      Insta
     </div>
   )
 }
 
-export default App
+export default Insta
