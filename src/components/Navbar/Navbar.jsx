@@ -18,8 +18,9 @@ const Navbar = () => {
 					<li><a href="/#">About</a></li>
 					<li><a href="/#">Services</a></li>
 					<li><a href="/#">Contact</a></li>
+					<li><a href="/#">Pages</a></li>
 				</ul>
-				<ul className='flex flex-col -mt-5 md:flex-row items-center'>
+				<ul className='flex flex-col -mt-5 md:-mt-0 md:flex-row items-center'>
 					<li><a href="">Log In/Register</a></li>
 					<li><a href="">Book Table</a></li>
 				</ul>
