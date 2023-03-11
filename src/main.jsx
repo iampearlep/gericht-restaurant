@@ -8,6 +8,9 @@ import About from './routes/About'
 import ErrorPage from './ErrorPage'
 import SearchMeals from './routes/SearchMeals'
 import SavedMeals from './routes/SavedMeals'
+import Menu from './routes/Menu'
+import Contact from './routes/Contact'
+import Services from './routes/Services'
 
 const router = createBrowserRouter([
   {
@@ -18,6 +21,18 @@ const router = createBrowserRouter([
   {
     path: '/about',
     element: <About />
+  },
+  {
+    path: '/menu',
+    element: <Menu />
+  },
+  {
+    path: '/contact',
+    element: <Contact />
+  },
+  {
+    path: '/services',
+    element: <Services />
   },
   {
     path: '/search',
