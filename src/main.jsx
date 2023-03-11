@@ -6,6 +6,8 @@ import './index.css'
 import Root from './routes/Root'
 import About from './routes/About'
 import ErrorPage from './ErrorPage'
+import SearchMeals from './routes/SearchMeals'
+import SavedMeals from './routes/SavedMeals'
 
 const router = createBrowserRouter([
   {
@@ -16,8 +18,15 @@ const router = createBrowserRouter([
   {
     path: '/about',
     element: <About />
-  }
- 
+  },
+  {
+    path: '/search',
+    element: <SearchMeals />
+  },
+  {
+    path: '/saved',
+    element: <SavedMeals />
+  },
 ])
 
 ReactDOM.createRoot(document.getElementById('root')).render(
