@@ -14,11 +14,17 @@ const Navbar = () => {
 			<div><img src={Logo} alt="" /></div>
 			<nav className='flex flex-col md:flex-row md:w-8/12 md:justify-between' ref={navRef}>
 				<ul className='flex flex-col md:flex-row'>
-					<li><a href="/#">Home</a></li>
-					<li><a href="/#">About</a></li>
+					<li><a href="/">Home</a></li>
+					<li><a href="/about">About</a></li>
+					<li><a href="#">Menu</a></li>
+					<li><a href="/#">Pages</a>
+					<ul>
 					<li><a href="/#">Services</a></li>
-					<li><a href="/#">Contact</a></li>
-					<li><a href="/#">Pages</a></li>
+				<li><a href="/#">Search Meals</a></li>
+                <li><a href="/#">Saved Meals</a></li>
+            </ul>
+					</li>
+					<li><a href="/">Contact</a></li>
 				</ul>
 				<ul className='flex flex-col -mt-5 md:-mt-0 md:flex-row items-center'>
 					<li><a href="">Log In/Register</a></li>
