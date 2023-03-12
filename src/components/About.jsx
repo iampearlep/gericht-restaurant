@@ -25,7 +25,7 @@ const About = () => {
               Quis Pharetra Adipiscing Ultrices
               Vulputate Posuere Tristique. In Sed 
               Odio Nec Aliquet Eu Proin Mauris Et.</p>
-              <button className='bg-primary text-black py-3 px-7 text-lg font-semibold'>Know More</button>
+              <button className='bg-primary text-black py-2 px-7 text-lg font-semibold'>Know More</button>
           </div>
           <div className='w-8/12 md:w-1/2 flex justify-center items-center mx-auto'>
             <img className='w-2/5 md:w-2/6' src={Knife} alt="" />
@@ -38,7 +38,7 @@ const About = () => {
               Quis Pharetra Adipiscing Ultrices
               Vulputate Posuere Tristique. In Sed 
               Odio Nec Aliquet Eu Proin Mauris Et.</p>
-              <button className='bg-primary text-black py-3 px-7 text-lg font-semibold'>Know More</button>
+              <button className='bg-primary text-black py-2 px-7 text-lg font-semibold'>Know More</button>
           </div>
          </div>
           </div>
