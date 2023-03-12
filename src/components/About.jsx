@@ -8,7 +8,7 @@ const About = () => {
     <section>
       <div style={
         {
-          backgroundImage:`linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3)), 
+          backgroundImage:`linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4)), 
           url(${AboutImg})`,
           backgroundPosition: 'center',
           backgroundSize: 'cover',
