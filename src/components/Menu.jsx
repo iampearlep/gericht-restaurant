@@ -93,21 +93,21 @@ const cocktails = cocktailData.map((cocktail) => {
 })
   return (
     <div className='bg-primaryBlack text-white pb-10'>
-      <div className='flex flex-col justify-center items-center mx-auto w-1/2 py-20'>
-      <h3 className='text-2xl font-semibold'>Menu That Fits You Palatte</h3>
+      <div className='flex flex-col justify-center items-center text-center mx-auto md:w-1/2 py-20'>
+      <h3 className='text-xl md:text-2xl font-semibold'>Menu That Fits You Palatte</h3>
       <img className='w-12' src={Spoon} alt="" />
-      <h2 className='mt-10 text-6xl text-primary font-semibold'>Today's Special</h2>
+      <h2 className='mt-2 md:mt-10 text-5xl md:text-6xl text-primary font-semibold mb-10 md:mb-0'>Today's Special</h2>
       </div>
-       <div className='flex flex-col md:flex-row w-11/12 md:w-full md:px-6 justify-center items-center mx-auto'>
-        <div className='w-2/5 -mt-14'>
-          <h3 className='text-5xl font-semibold text-center mb-14'>Wine & Beer</h3>
+       <div className='flex flex-col md:flex-row w-11/12 md:w-full md:px-6 justify-center items-center mx-auto space-y-12'>
+        <div className='w-11/12 md:w-2/5 -mt-14'>
+          <h3 className='text-4xl md:text-5xl font-semibold text-center mb-14'>Wine & Beer</h3>
           {wines}
         </div>
-        <div className='w-1/2 flex justify-center items-center'>
+        <div className='w-11/12 md:w-1/2 flex justify-center items-center'>
           <img src={cocktailShaker} alt="" />
         </div>
-        <div className='w-2/5 -mt-14'>
-          <h3 className='text-5xl font-semibold text-center mb-14'>Cocktails</h3>
+        <div className='w-11/12 md:w-2/5 md:-mt-14'>
+          <h3 className='text-4xl md:text-5xl font-semibold text-center mb-14'>Cocktails</h3>
           {cocktails}
         </div>
       </div>
