@@ -8,38 +8,44 @@ const About = () => {
     <section>
       <div style={
         {
-          backgroundImage:`url(${AboutImg})`,
+          backgroundImage:`linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3)), 
+          url(${AboutImg})`,
           backgroundPosition: 'center',
           backgroundSize: 'cover',
-          backgroundRepeat: 'no-repeat'
+          backgroundRepeat: 'no-repeat',
+          
         }
-      } className='text-white'>
-        <div>
-          <div>
-            <h2>About Us</h2>
+      } className='text-white relative'>
+        <div className='absolute z-10 mt-24'>
+         <div className='flex flex-col md:flex-row md:w-11/12 justify-center items-center mx-auto'>
+         <div className='flex flex-col items-end text-right'>
+            <h2 className='text-primary text-6xl font-semibold'>About Us</h2>
             <img src={Spoon} alt="" />
-            <p>Lorem Ipsum Dolor Sit Amet, 
+            <p className='my-12'>Lorem Ipsum Dolor Sit Amet, 
               Consectetur Adipiscing Elit. 
               Quis Pharetra Adipiscing Ultrices
               Vulputate Posuere Tristique. In Sed 
               Odio Nec Aliquet Eu Proin Mauris Et.</p>
-              <button>Know more</button>
+              <button className='bg-primary text-black py-3 px-7 text-lg font-semibold'>Know More</button>
           </div>
-          <div>
-            <img src={GImg} alt="" />
-            <img src={Knife} alt="" />
+          <div className='w-1/2 flex justify-center items-center'>
+            <img className='' src={Knife} alt="" />
           </div>
-          <div>
-          <h2>Our History</h2>
+          <div className='flex flex-col items-start text-left'>
+          <h2 className='text-primary text-6xl font-semibold'>Our History</h2>
             <img src={Spoon} alt="" />
-            <p>Lorem Ipsum Dolor Sit Amet, 
+            <p className='my-12'>Lorem Ipsum Dolor Sit Amet, 
               Consectetur Adipiscing Elit. 
               Quis Pharetra Adipiscing Ultrices
               Vulputate Posuere Tristique. In Sed 
               Odio Nec Aliquet Eu Proin Mauris Et.</p>
-              <button>Know more</button>
+              <button className='bg-primary text-black py-3 px-7 text-lg font-semibold'>Know More</button>
           </div>
+         </div>
           </div>
+          <div className='relative flex w-2/6 mx-auto py-56'>
+         <img className='brightness-75'  src={GImg} alt="" />
+         </div>
         </div>
     </section>
   )
