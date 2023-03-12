@@ -4,7 +4,7 @@ import HeroImg from '../assets/hero.png'
 const Hero = () => {
   return (
     <main>
-      <div className='bg-black text-slate-50 flex flex-col md:flex-row px-10 md:space-x-24 space-y-8 py-16 '>
+      <div className='bg-primaryBlack text-slate-50 flex flex-col md:flex-row px-10 md:space-x-24 space-y-8 py-16 '>
       <div className='w-11/12 md:w-2/5 md:mt-20'>
       <h4 className='text-2xl font-semibold'>Chase The New Flavour</h4>
       <img src={Spoon} alt="" />

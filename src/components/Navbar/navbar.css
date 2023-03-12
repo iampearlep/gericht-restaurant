@@ -11,7 +11,7 @@ header {
 	justify-content: space-between;
 	height: 80px;
 	padding: 0 2rem;
-	background-color: #000;
+	background-color: #0c0c0c;
 	color: #fff;
 	width: 100%;
 }
@@ -85,7 +85,7 @@ nav ul li:hover > ul {
 		align-items: center;
 		justify-content: center;
 		gap: 1.5rem;
-		background-color: #000;
+		background-color: #0c0c0c;
 		transition: 1s ease-in;
 	}
 
