@@ -23,12 +23,14 @@ const Chef = () => {
           <h3>Chef’s Word</h3>
           <img src={Spoon} alt="" />
           <h2>What We Believe In</h2>
-          <img src={CommImg} alt="" />
-          <p>Lorem Ipsum Dolor Sit Amet, 
+         
+          <div className='my-20 flex flex-row'> 
+          <img className='absolute w-10' src={CommImg} alt="" />
+          <p className='w-11/12 ml-auto text-xl'>Lorem Ipsum Dolor Sit Amet, 
             Consectetur Adipiscing Elit Auctor Sit Auctor 
             Sit Iaculis In Arcu. Vulputate Nulla Lobortis Mauris
             Eget Sit. Nulla Scelerisque Scelerisque Congue Ac Consequat,
-            Aliquam Molestie Lectus Eu. Congue Iaculis Integer Curabitur Semper Sit Nunc.</p>
+            Aliquam Molestie Lectus Eu. Congue Iaculis Integer Curabitur Semper Sit Nunc.</p></div>
             <h3>Kevin Luo</h3>
             <p>Chef & Founder</p>
             <img src={Sign} alt="" />
