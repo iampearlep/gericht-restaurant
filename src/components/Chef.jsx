@@ -20,7 +20,7 @@ const Chef = () => {
         <img src={ChefImg} alt="" />
         </div>
         <div className='w-1/2'>
-          <h3 className='text-2xl font-semibold'>Chef’s Word</h3>
+          <h3 className='text-2xl font-semibold mb-2'>Chef’s Word</h3>
           <img src={Spoon} alt="" />
           <h2 className='text-primary text-6xl font-semibold mt-4'>What We Believe In</h2>
          
