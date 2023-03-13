@@ -15,18 +15,17 @@ const Chef = () => {
         backgroundRepeat: 'no-repeat',
       }
     } className='relative h-[auto]'>
-      <div className='flex flex-col md:flex-row text-white py-32 w-11/12 justify-center items-center mx-auto space-x-20'>
-        <div className='w-1/2'>
+      <div className='flex flex-col md:flex-row text-white py-32 w-11/12 justify-center items-center mx-auto md:space-x-20 space-y-10'>
+        <div className='w-11/12 md:w-1/2'>
         <img src={ChefImg} alt="" />
         </div>
-        <div className='w-1/2'>
+        <div className='w-11/12 md:w-1/2'>
           <h3 className='text-2xl font-semibold mb-2'>Chef’s Word</h3>
           <img src={Spoon} alt="" />
-          <h2 className='text-primary text-6xl font-semibold mt-4'>What We Believe In</h2>
-         
+          <h2 className='text-primary text-5xl md:text-6xl font-semibold mt-4'>What We Believe In</h2>
           <div className='my-16 flex flex-row'> 
           <img className='absolute w-10' src={CommImg} alt="" />
-          <p className='w-11/12 ml-auto text-xl'>Lorem Ipsum Dolor Sit Amet, 
+          <p className='w-11/12 ml-6 md:ml-auto text-xl'>Lorem Ipsum Dolor Sit Amet, 
             Consectetur Adipiscing Elit Auctor Sit Auctor 
             Sit Iaculis In Arcu. Vulputate Nulla Lobortis Mauris
             Eget Sit. Nulla Scelerisque Scelerisque Congue Ac Consequat,
