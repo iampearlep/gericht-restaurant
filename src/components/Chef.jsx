@@ -23,7 +23,7 @@ const Chef = () => {
           <h3 className='text-2xl font-semibold mb-2'>Chef’s Word</h3>
           <img src={Spoon} alt="" />
           <h2 className='text-primary text-5xl md:text-6xl font-semibold mt-4'>What We Believe In</h2>
-          <div className='my-16 flex flex-row'> 
+          <div className=' my-12 md:my-16 flex flex-row'> 
           <img className='absolute w-10' src={CommImg} alt="" />
           <p className='w-11/12 ml-6 md:ml-auto text-xl'>Lorem Ipsum Dolor Sit Amet, 
             Consectetur Adipiscing Elit Auctor Sit Auctor 
