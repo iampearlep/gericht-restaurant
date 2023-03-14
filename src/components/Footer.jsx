@@ -13,25 +13,25 @@ const Footer = () => {
           backgroundSize: 'cover',
           backgroundRepeat: 'no-repeat',
         }
-      } className='text-white md:h-[auto] '>
-     <div className='pt-80 pb-20 flex flex-row space-x-28 w-11/12 justify-center items-center'>
-      <div>
-        <h3>Contact Us</h3>
-      <p>9 W 53rd St, New York, NY 10019, USA</p>
+      } className='text-white h-[auto]'>
+     <div className='pt-96 pb-20 flex flex-row space-x-28 w-11/12 justify-center items-center text-center'>
+      <div className='flex flex-col space-y-4 justify-center items-center text-lg'>
+        <h3 className='text-2xl'>Contact Us</h3>
+      <p className='w-2/3'>9 W 53rd St, New York, NY 10019, USA</p>
       <p>+1 212-344-1230</p>
       <p>+1 212-555-1230</p>
       </div>
-      <div>
+      <div className=' w-2/5 flex flex-col space-y-4 justify-center items-center'>
       <img src={Gericht} alt="" />
-      <p>"The Best Way To Find Yourself Is To Lose Yourself In The Service Of Others.”</p>
-      <img src={Spoon} alt="" />
-      <div className='flex flex-row'>
+      <p className='text-xl w-2/3'>"The Best Way To Find Yourself Is To Lose Yourself In The Service Of Others.”</p>
+      <img className='w-10' src={Spoon} alt="" />
+      <div className='flex flex-row space-x-3'>
       <FaFacebookF />
       <FaTwitter />
       <FaInstagram />
       </div>
       </div>
-      <div>
+      <div className='flex flex-col space-y-3 text-lg'>
         <h3>Working Hours</h3>
         <p>Monday-Friday:</p>
         <p>08:00 Am -12:00 Am</p>
@@ -39,7 +39,7 @@ const Footer = () => {
         <p>07:00am -11:00 Pm</p>
       </div>
      </div>
-     <p>2021 Gerícht. All Rights Reserved.</p>
+     <p className='w-2/5 mx-auto text-center'>2021 Gerícht @alwayspearlxx. All Rights Reserved.</p>
     </div>
   )
 }
