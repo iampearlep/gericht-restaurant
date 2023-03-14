@@ -14,7 +14,7 @@ const Footer = () => {
           backgroundRepeat: 'no-repeat',
         }
       } className='text-white md:h-[auto] '>
-     <div className='py-44 flex flex-row space-x-28 w-11/12 justify-center items-center'>
+     <div className='pt-80 pb-20 flex flex-row space-x-28 w-11/12 justify-center items-center'>
       <div>
         <h3>Contact Us</h3>
       <p>9 W 53rd St, New York, NY 10019, USA</p>
