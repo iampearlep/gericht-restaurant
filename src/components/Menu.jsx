@@ -69,7 +69,7 @@ const cocktailData = [
 
 const wines = wineData.map((wine) => {
   return (
-    <div className='flex flex-col mb-10'>
+    <div key={wine.id} className='flex flex-col mb-10'>
      <div className='flex flex-row items-center space-x-3'>
      <h4 className='text-2xl font-semibold text-primary'>{wine.name}</h4>
       <hr className='w-2/5' />
@@ -81,7 +81,7 @@ const wines = wineData.map((wine) => {
 })
 const cocktails = cocktailData.map((cocktail) => {
   return (
-    <div className='flex flex-col mb-10'>
+    <div key={cocktail.id} className='flex flex-col mb-10'>
       <div className='flex flex-row items-center space-x-3'>
       <h4 className='text-2xl font-semibold text-primary'>{cocktail.name}</h4>
       <hr className='w-2/5' />
