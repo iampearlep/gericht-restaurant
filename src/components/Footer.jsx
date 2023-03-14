@@ -14,17 +14,17 @@ const Footer = () => {
           backgroundRepeat: 'no-repeat',
         }
       } className='text-white h-[auto]'>
-     <div className='pt-96 pb-20 flex flex-row space-x-28 w-11/12 justify-center items-center text-center'>
+     <div className='pt-96 pb-20 flex flex-col md:flex-row md:space-x-28 px-3 md:w-11/12 space-y-3 justify-center items-center text-center'>
       <div className='flex flex-col space-y-4 justify-center items-center text-lg'>
         <h3 className='text-2xl'>Contact Us</h3>
       <p className='w-2/3'>9 W 53rd St, New York, NY 10019, USA</p>
       <p>+1 212-344-1230</p>
       <p>+1 212-555-1230</p>
       </div>
-      <div className=' w-2/5 flex flex-col space-y-4 justify-center items-center'>
+      <div className=' md:w-2/5 flex flex-col space-y-4 justify-center items-center mx-auto'>
       <img src={Gericht} alt="" />
-      <p className='text-xl w-2/3'>"The Best Way To Find Yourself Is To Lose Yourself In The Service Of Others.”</p>
-      <img className='w-10' src={Spoon} alt="" />
+      <p className='text-xl md:w-2/3'>"The Best Way To Find Yourself Is To Lose Yourself In The Service Of Others.”</p>
+      <img className='w-10 mx-auto' src={Spoon} alt="" />
       <div className='flex flex-row space-x-3'>
       <FaFacebookF />
       <FaTwitter />
