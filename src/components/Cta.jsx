@@ -9,7 +9,7 @@ const Cta = () => {
       <div className='border-2 border-primary w-11/12 bg-primaryBlack absolute py-16'>
       <h4 className='text-2xl font-semibold'> Newsletter</h4>
       <img className='mx-auto' src={Spoon} alt="" />
-      <h2 className='text-7xl text-primary font-semibold my-4'>Subscribe To Our Newsletter</h2>
+      <h2 className='text-4xl md:text-7xl text-primary font-semibold my-4'>Subscribe To Our Newsletter</h2>
       <p className='my-12 text-lg text-primaryGrey'>And never miss latest Updates!</p>
       <form className='flex flex-row space-x-5 justify-center items-center'>
         <input className='bg-primaryBlack border-2 border-primaryGrey w-6/12 py-3 px-3 text-primaryGrey' placeholder='Email Address' type="email" name="" id="" />
