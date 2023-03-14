@@ -39,7 +39,7 @@ const Footer = () => {
         <p>07:00am -11:00 Pm</p>
       </div>
      </div>
-     <p className='w-1/2 mx-auto text-center'>2021 Gerícht @alwayspearlxx. All Rights Reserved.</p>
+     <p className='w-1/2 mx-auto text-center pb-6'>2021 Gerícht @alwayspearlxx. All Rights Reserved.</p>
     </div>
   )
 }
