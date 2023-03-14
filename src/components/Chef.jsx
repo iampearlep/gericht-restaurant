@@ -3,7 +3,7 @@ import ChefImg from '../assets/chef-img.png'
 import Spoon from '../assets/spoon.d079f43fbcf509908d3865293080795a.svg'
 import Sign from '../assets/sign.9bf0bd90ad4caa17991f.png'
 import CommImg from '../assets/download (6).png'
-import AboutImg from '../assets/about-bg.png'
+import AboutImg from '../assets/insta-bg.png'
 const Chef = () => {
   return (
     <div style={

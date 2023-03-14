@@ -1,5 +1,5 @@
 import React from 'react'
-import AboutImg from '../assets/about-bg.png'
+import AboutImg from '../assets/insta-bg.png'
 import Spoon from '../assets/spoon.d079f43fbcf509908d3865293080795a.svg'
 import Knife from '../assets/knife.png'
 import GImg from '../assets/G.png'
@@ -8,7 +8,7 @@ const About = () => {
     <section>
       <div style={
         {
-          backgroundImage:`linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4)), 
+          backgroundImage:`linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3)), 
           url(${AboutImg})`,
           backgroundPosition: 'center',
           backgroundSize: 'cover',

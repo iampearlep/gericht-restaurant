@@ -1,5 +1,5 @@
 import React from 'react'
-import AboutImg from '../assets/about-bg.png'
+import AboutImg from '../assets/insta-bg.png'
 import AwardImg from '../assets/Group-43.png'
 import Spoon from '../assets/spoon.d079f43fbcf509908d3865293080795a.svg'
 import Rounded from '../assets/rounded.png'
