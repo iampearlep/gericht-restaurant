@@ -2,6 +2,7 @@ import React, {useRef} from 'react'
 import {HiOutlineBars3BottomRight, HiOutlineXMark} from "react-icons/hi2";
 import Logo from '../.././assets/logo (1).svg'
 import './navbar.css'
+import { Link } from 'react-router-dom';
 const Navbar = () => {
   const navRef = useRef();
   const showNavbar = () => {
@@ -14,14 +15,14 @@ const Navbar = () => {
 			<div><img src={Logo} alt="" /></div>
 			<nav className='flex flex-col md:flex-row md:w-8/12 md:justify-between' ref={navRef}>
 				<ul className='flex flex-col md:flex-row'>
-					<li><a href="/">Home</a></li>
-					<li><a href="/about">About</a></li>
-					<li><a href="/menu">Menu</a></li>
-					<li><a href="/#">Pages</a>
+					<li><Link to="/">Home</Link></li>
+					<li><Link to="/about">About</Link></li>
+					<li><Link to="/menu">Menu</Link></li>
+					<li><Link to="/#">Pages</Link>
 					<ul>
-					<li><a href="/services">Services</a></li>
-				<li><a href="/search">Search Meals</a></li>
-                <li><a href="/saved">Saved Meals</a></li>
+					<li><Link to="/services">Services</Link></li>
+				<li><Link to="/search">Search Meals</Link></li>
+                <li><Link to="/saved">Saved Meals</Link></li>
             </ul>
 					</li>
 					<li><a href="/contact">Contact</a></li>
