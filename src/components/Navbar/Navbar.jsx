@@ -25,11 +25,11 @@ const Navbar = () => {
                 <li><Link to="/saved">Saved Meals</Link></li>
             </ul>
 					</li>
-					<li><a href="/contact">Contact</a></li>
+					<li><Link to="/contact">Contact</Link></li>
 				</ul>
 				<ul className='flex flex-col -mt-5 md:-mt-0 md:flex-row items-center'>
-					<li><a href="">Log In/Register</a></li>
-					<li><a href="">Book Table</a></li>
+					<li><Link to="">Log In/Register</Link></li>
+					<li><Link to="">Book Table</Link></li>
 				</ul>
 				<button
 					className="nav-btn nav-close-btn"
