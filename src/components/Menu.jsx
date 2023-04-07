@@ -92,7 +92,7 @@ const cocktails = cocktailData.map((cocktail) => {
   )
 })
   return (
-    <div className='bg-primaryBlack text-white pb-10'>
+    <div className='bg-primaryBlack text-white py-10'>
       <div className='flex flex-col justify-center items-center text-center mx-auto md:w-1/2 py-20'>
       <h3 className='text-xl md:text-2xl font-semibold'>Menu That Fits You Palatte</h3>
       <img className='w-12' src={Spoon} alt="" />
