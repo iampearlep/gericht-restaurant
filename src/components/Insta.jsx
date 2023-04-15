@@ -13,15 +13,15 @@ const Insta = () => {
         backgroundRepeat: 'no-repeat',
       }
     } >
-     <div className='flex flex-row py-14 px-4 gap-x-2'>
+     <div className='flex flex-col md:flex-row py-14 px-4 gap-x-2 gap-y-6'>
       <div className='text-white'>
-        <h4 className='text-2xl font-semibold'>Instagram</h4>
+        <h4 className='text-xl md:text-2xl font-semibold'>Instagram</h4>
         <img src={Spoon} alt="" />
-        <h3 className='text-primary text-6xl font-bold w-full my-5'>Photo Gallery</h3>
-        <p className='mb-6'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat mattis ipsum turpis elit elit scelerisque egestas mu.</p>
+        <h3 className='text-primary text-4xl md:text-6xl font-bold w-full my-2 md:my-5'>Photo Gallery</h3>
+        <p className='mb-3 md:mb-6'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat mattis ipsum turpis elit elit scelerisque egestas mu.</p>
         <button className='bg-primary text-black py-2 px-7 text-lg font-semibold'>View More</button>
       </div>
-      <div className='w-2/3'>
+      <div className='w-full md:w-2/3'>
         <ImgCarousel />
       </div>
      </div>
