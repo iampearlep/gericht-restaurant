@@ -7,25 +7,25 @@ const Awards = () => {
   const awardData =[
     {
       id: 1,
-      image: '../assets/award-3.svg',
+      image: '../../public/images/award-2.svg',
       name:  'Bib Gourmond',
       text: 'Lorem ipsum dolor sit amet, consectetur.'
     },
     {
       id: 2,
-      image: '../../assets/award-1.svg',
+      image: '../../public/images/award-1.svg',
       name:  'Rising Star',
       text: 'Lorem ipsum dolor sit amet, consectetur.'
     },
     {
       id: 3,
-      image: '../assets/award-5.svg',
+      image: '../../public/images/award-5.svg',
       name:  'AA Hospitality',
       text: 'Lorem ipsum dolor sit amet, consectetur.'
     },
     {
       id: 4,
-      image: '../assets/award-3.svg',
+      image: '../../public/images/award-3.svg',
       name:  'Outstanding Chef',
       text: 'Lorem ipsum dolor sit amet, consectetur.'
     },
