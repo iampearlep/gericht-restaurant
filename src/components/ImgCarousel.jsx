@@ -14,7 +14,7 @@ import Photo7 from '../assets/07.jpg'
 const ImgCarousel = () => {
   return (
     <Swiper 
-    modules={[ A11y]}
+    modules={[A11y]}
       spaceBetween={5}
       slidesPerView={3}
       onSwiper={(swiper) => console.log(swiper)}
