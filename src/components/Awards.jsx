@@ -3,29 +3,30 @@ import AboutImg from '../assets/insta-bg.png'
 import AwardImg from '../assets/Group-43.png'
 import Spoon from '../assets/spoon.d079f43fbcf509908d3865293080795a.svg'
 import Rounded from '../assets/rounded.png'
+import Img from '../assets/award-1.svg'
 const Awards = () => {
   const awardData =[
     {
       id: 1,
-      image: '../../public/images/award-2.svg',
+      image: '../assets/award-2.svg',
       name:  'Bib Gourmond',
       text: 'Lorem ipsum dolor sit amet, consectetur.'
     },
     {
       id: 2,
-      image: '../../public/images/award-1.svg',
+      image: '../assets/award-1.svg',
       name:  'Rising Star',
       text: 'Lorem ipsum dolor sit amet, consectetur.'
     },
     {
       id: 3,
-      image: '../../public/images/award-5.svg',
+      image: '../assets/award-5.svg',
       name:  'AA Hospitality',
       text: 'Lorem ipsum dolor sit amet, consectetur.'
     },
     {
       id: 4,
-      image: '../../public/images/award-3.svg',
+      image: '../assets/award-3.svg',
       name:  'Outstanding Chef',
       text: 'Lorem ipsum dolor sit amet, consectetur.'
     },
@@ -33,7 +34,7 @@ const Awards = () => {
   const awards = awardData.map((award) => {
     return (
       <div key={award.id} className='flex flex-row items-center space-x-6 my-10'>
-        <img src={award.image} alt="" />
+        <img src={Img} alt="" />
         <div>
           <h4 className='text-2xl text-primary font-semibold'>{award.name}</h4>
           <p className='text-xl'>{award.text}</p>
