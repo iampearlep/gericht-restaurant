@@ -42,7 +42,7 @@ const Meals= () => {
       )
      })}
     </div>
-   <div className='flex flex-col md:flex-wrap justify-center items-center mx-auto w-11/12 gap-3'>
+   <div className='flex flex-col md:flex-row md:flex-wrap justify-center items-center mx-auto w-11/12 gap-x-10 gap-y-4'>
     {meals?.map((meal) => {
       return(
         <div key={meal.idMeal} className='md:w-3/12 border border-primary mt-10'>
