@@ -13,14 +13,8 @@ const Meals= () => {
       setMeals(res2.data.meals);
     }
 
-    fetchData()
-  }, []);
+    
 
-  // const FetchMealData = (e) => {
-  //   // axios.get(`https://www.themealdb.com/api/json/v1/1/filter.php?c=${}`);
-  //   console.log('button was clicked');
-  //   console.log(e.target.value)
-  // }
 
   return (
     <div className='bg-primaryBlack  pt-14'>
