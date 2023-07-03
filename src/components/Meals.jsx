@@ -13,8 +13,10 @@ const Meals= () => {
       setMeals(res2.data.meals);
     }
 
-    
+    fetchData()
+  }, []);
 
+ 
 
   return (
     <div className='bg-primaryBlack  pt-14'>
