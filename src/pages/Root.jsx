@@ -1,9 +1,8 @@
 import React from 'react'
-import {Navbar, Menu, About, Hero, Insta,Video, Cta, Footer, Awards, Chef} from '../components'
+import { Menu, About, Hero, Insta,Video, Cta, Awards, Chef} from '../components'
 const App = () => {
   return (
     <div>
-     <Navbar />
      <Hero />
      <About />
      <Menu />
@@ -12,7 +11,6 @@ const App = () => {
      <Awards />
      <Insta />
      <Cta />
-     <Footer />
     </div>
   )
 }

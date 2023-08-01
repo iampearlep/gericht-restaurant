@@ -1,6 +1,7 @@
 import React from 'react'
 import Spoon from '../assets/spoon.d079f43fbcf509908d3865293080795a.svg'
 import HeroImg from '../assets/hero.png'
+import { Link } from 'react-router-dom';
 const Hero = () => {
   return (
     <main>
@@ -10,7 +11,8 @@ const Hero = () => {
       <img src={Spoon} alt="" />
       <h1 className='mt-5 md:mt-10 text-6xl md:text-8xl text-primary font-bold w-full mb-7'>The Key To Fine Dining</h1>
       <p className='mb-6'>Sit Tellus Lobortis Sed Senectus Vivamus Molestie. Condimentum Volutpat Morbi Facilisis Quam Scelerisque Sapien. Et, Penatibus Aliquam Amet Tellus</p>
-      <button className='bg-primary text-black py-3 px-5 font-semibold'>Explore Menu</button>
+
+      <Link to='/search-meals'><button className='bg-primary text-black py-3 px-5 font-semibold'>Explore Menu</button></Link>
       </div>
       <div className='w-full md:w-1/2 mx-auto'>
         <img className='' src={HeroImg} alt="" />

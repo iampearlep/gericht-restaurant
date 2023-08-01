@@ -55,7 +55,7 @@ nav ul ul {
     border-top: none;
     background-color: #242323;
     border-radius: 10px;
-    transition: 2s;
+    transition: 1.2s;
 }
 nav ul li:hover > ul {
 	display: flex;
@@ -100,7 +100,7 @@ nav ul li:hover > ul {
 	}
 
 	nav a {
-		font-size: 1rem;
+		font-size: 1.25rem;
 	}
 	nav ul ul {
         width: 7rem;

@@ -12,22 +12,22 @@ const Navbar = () => {
 	};
   return (
     <header className=''>
-			<div><img src={Logo} alt="" /></div>
+			<Link to="/"><div><img src={Logo} alt="" /></div></Link>
 			<nav className='flex flex-col md:flex-row md:w-8/12 md:justify-between' ref={navRef}>
-				<ul className='flex flex-col md:flex-row'>
+				<ul className='flex flex-col gap-y-6 md:gap-y-0 md:flex-row'>
 					<li><Link to="/">Home</Link></li>
-					<li><Link to="/about">About</Link></li>
-					<li><Link to="/menu">Menu</Link></li>
-					<li><Link to="/#">Pages</Link>
+					<li><Link to="">About</Link></li>
+					<li><Link to="">Menu</Link></li>
+					<li><Link to="">Pages</Link>
 					<ul>
-					<li><Link to="/services">Services</Link></li>
-				<li><Link to="/search">Search Meals</Link></li>
-                <li><Link to="/saved">Saved Meals</Link></li>
+					<li><Link to="">Services</Link></li>
+				<li><Link to="">Search Meals</Link></li>
+                <li><Link to="">Saved Meals</Link></li>
             </ul>
 					</li>
 					<li><Link to="/contact">Contact</Link></li>
 				</ul>
-				<ul className='flex flex-col -mt-5 md:-mt-0 md:flex-row items-center'>
+				<ul className='flex flex-col gap-y-6 md:gap-y-0 md:flex-row items-center'>
 					<li><Link to="">Log In/Register</Link></li>
 					<li><Link to="">Book Table</Link></li>
 				</ul>
